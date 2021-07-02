@@ -84,6 +84,8 @@
 
 <!-- /TOC -->
 
+<div STYLE="page-break-after: always;"></div>
+
 
 
 # C++历史与理念
@@ -1910,6 +1912,8 @@ A* a = new(buf) A;//定位new，不用分配内存，直接使用buf指向的区
 8. 动态删除其父类的所有的。
 9. 如果子类中有一个虚继承函数，则size_t大小会根据继承情况进行确定大小
 
+<div STYLE="page-break-after: always;"></div>
+
 # 模板
 
 模板是一种代码复用机制，模板定义多个类的时候需要显式实例化，如果用不到的化，则不会实例化模板。
@@ -2018,6 +2022,8 @@ void sub(){
 }
 //不能通过编译，为什么？file2.cpp找不到max定义，也找不到完整的S代码
 ```
+
+<div STYLE="page-break-after: always;"></div>
 
 # 异常处理
 
@@ -2287,6 +2293,8 @@ void processAdoptions(istream& dataSource){
     }
 }
 ```
+
+<div STYLE="page-break-after: always;"></div>
 
 # C++ 11新特性
 
