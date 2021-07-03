@@ -529,19 +529,19 @@ void main(){
 
 ## 指针的拷贝和地址传递
 ```c++
-//传递引用，影响原来的值。
+//传递指针，影响原来的值。
 void myswap(int *p1, int *p2) {
 	int* tmp = p1;
 	p1 = p2;
 	p2 = tmp;
 }
-//传递参数，拷贝进入函数体，不影响原来的值
+//传递引用，影响原来的值
 void myswap2(int &p1, int & p2) {
 	int tmp = p1;
 	p1 = p2;
 	p2 = tmp;
 }
-//传递引用，影响原来的值
+//传递指针的指针，不影响原来的值
 void myswap(char **p1, char **p2) {
 	char *tmp = *p1;
 	*p1 = *p2;
